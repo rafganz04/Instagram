@@ -1,0 +1,147 @@
+.main {
+    background-color: #fafafa;
+    padding-top: 25px;
+    align-items: flex-start;
+   }
+   .feed {
+    width: 470px;
+    margin-right: 50px;
+    border-radius: 0.5px;
+    border: 0.10px solid lightgray;
+    font-size: 13px;
+    background-color: white;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+   }
+   .akun {
+    width: 320px;
+    margin-top: 10px;
+    font-size: 14px;
+   }
+   .akun-konten {
+    width: 100%;
+   }
+   .akun-konten > li {
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   }
+   .akun-konten > li > p {
+    margin-left: 20px;
+    margin-right: auto;
+    align-items: flex-start;
+   }
+   .akun-konten > li > a {
+    color: skyblue;
+    font-size: 13px;
+   }
+   .akun-konten > li > p > span:first-child {
+    font-weight: bold;
+    color: black;
+   }
+   .akun-konten > li > p > span:last-child {
+    color: gray;
+   }
+   .img-wrap {
+    border-radius: 50%;
+    overflow: hidden;
+    border: 0.5px solid #f2f2f2;
+    display: flex;
+   }
+   li.suggestions > span {
+    color: gray;
+   }
+   li.suggestions > a {
+    color: black;
+   }
+   .about {
+    margin-top: 30px;
+    margin-bottom: 30px;
+   }
+   .about > a {
+    color: lightgray;
+    font-size: 11px;
+    margin-right: 2px;
+   }
+   .name {
+    color: lightgray;
+    font-size: 11px;
+    margin-right: auto;
+   }
+   .profile {
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+   }
+   .profile > p {
+    margin-left: 18px;
+    margin-right: auto;
+   }
+   .profile > p > span:first-child {
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-right: auto;
+   }
+   .imgs > div > img {
+    width: 100%;
+   }
+   .feed-icons  {
+    width: 92%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+   }
+   .feed-icons > img {
+    margin-right: 10px;
+    cursor: pointer;
+   }
+   .feed-icons > img:last-child {
+    margin-left: auto;  
+   }
+   .likes {
+    margin-right: auto;
+    margin-left: 20px;
+    font-weight: bold;
+    margin-top: 5x;
+    margin-bottom: 5px;
+   }
+   .comments {
+    width: 92%;
+    margin-top: 5px;
+   }
+   .comments > span.title {
+    font-weight: bold;
+   }
+   .comments > span.hastag {
+    color: darkblue;
+   }
+   .count {
+    margin-left: 20px;
+    color: lightgray;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   }
+   .time {
+    font-size: 10px;
+    color: lightgray;
+    margin-right: auto;
+    margin-left: 20px;
+   }
+   .swiper {
+    width: 470px;
+   }
+   .swiper-button-prev, .swiper-button-next {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+   }
+   .swiper-button-prev::after, .swiper-button-next::after {
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+   }
+   .swiper-pagination-bullet {
+    background-color: white;
+   }
